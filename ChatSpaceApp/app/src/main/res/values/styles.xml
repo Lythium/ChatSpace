@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ChatAppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+        <item name="actionBarStyle">@style/MyActionBarTheme</item>
+
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+  
+    <style name="MyActionBarTheme" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/actionbar</item>
+        <item name="background">@color/actionbar</item>
+
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextStyle</item>
+        <item name="titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    </style>
+     
+     <style name="ActionBarTitleTextStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

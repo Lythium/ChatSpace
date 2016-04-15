@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ChatSpace</string>
+
+    <!-- Main Activity -->
+    <string name="enter_name">Enter your name</string>
+    <string name="location">near</string>
+    <string name="default_location">Earth</string>
+    <string name="about_title">ChatSpace - About</string>
+    <string name="btn_join">Join</string>
+
+    <!-- About Activity -->
+    <string name="app_about">ChatSpace application finds people nearby within 50 meter radius. You can enter a chat room and have a dialogue with anybody who is present in the same space.</string>
+    <string name="copyright">Designed and developed by Michel Kaporin, 2015</string>
+    <string name="acknowledgment">Thank you for using this app!</string>
+
+    <!-- Chat Activity -->
+    <string name="btn_send">Send</string>
+    <string name="action_quit">Quit chat</string>
+    <string name="action_about">About</string>
+</resources>
